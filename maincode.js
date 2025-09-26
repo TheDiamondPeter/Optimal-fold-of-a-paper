@@ -142,7 +142,7 @@
 
     // wire events
     [inpL, inpW, sliderX].forEach(e => e.addEventListener('input', draw));
-    // initialize slider max based on default W
+    // initialize slider max based on defaults
     sliderX.max = parseNum(inpL, 360);
     draw();
 
