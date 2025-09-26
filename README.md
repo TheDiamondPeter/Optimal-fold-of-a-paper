@@ -6,6 +6,7 @@ This project is an interactive web tool that explores the geometry problem of fo
 - Adjustable dimensions in millimeters
 - Responsive design, works directly in the browser
 # Purpose
+Built as a part of a Mathematics Investigation project, it demonstrates:
 - Application of geometry and optimization
 - Problem-solving and clear communication of mathematical ideas
 # How to Use
