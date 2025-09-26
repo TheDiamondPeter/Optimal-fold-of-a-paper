@@ -32,7 +32,7 @@
         const x = Math.max(0, Math.min(H, parseNum(sliderX)));
 
         // clamp slider max to W
-        sliderX.max = Math.ceil(H);
+        sliderX.max = Math.ceil(H*0.5);
 
         // analytic optimum
         const a = Math.sqrt(Math.pow((H - x), 2) - Math.pow(x, 2));
