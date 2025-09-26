@@ -1,4 +1,4 @@
-# Optimal-fold-of-a-paper
+# Optimal Fold of a Paper of any dimensions
 This project is an interactive web tool that explores the geometry problem of folding a rectangle and finding the optimal position of point X along one edge to maximize the area of triangle XCA.
 # Features
 - Interactive slider to move point X along the left edge of the rectangle
