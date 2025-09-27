@@ -69,17 +69,19 @@
 
     <div class="controls">
         <div class="card">
-            <label>Rectangle Length (mm) <small>(visual scale)</small></label>
-            <input id="inpL" type="number" min="10" max="1000" value="360" />
             <label>
                 Rectangle Width (mm)
             </label>
-            <input id="inpW" type="number" min="10" max="1000" value="200" />
+            <input id="inpW" type="number" min="10" max="1000" value="210"/>
+            <label>
+                Rectangle Height (mm)
+            </label>
+            <input id="inpH" type="number" min="10" max="1000" value="297"/>
         </div>
 
         <div class="card">
             <label>Move X along left edge</label>
-            <input id="sliderX" type="range" min="0" value="80" step="0.1"/>
+            <input id="sliderX" type="range" min="0" value="70" step="0.1"/>
             <div style="margin-top: 6px">
                 <small>x = <span id="aval">100</span> mm</small>
             </div>
